@@ -35,6 +35,10 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 Log.i("MyActivity", "Inside onClick()");
+                Log.v("MyActivity", "Inside onClick()");
+                Log.d("MyActivity", "Inside onClick()");
+                Log.w("MyActivity", "Inside onClick()");
+                Log.e("MyActivity", "Inside onClick()");
 
                 Toast.makeText(MainActivity.this, "Button Click", Toast.LENGTH_SHORT).show();
 
